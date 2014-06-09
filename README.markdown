@@ -9,6 +9,22 @@ _the last carousel you'll ever need_
 
 [http://kenwheeler.github.io/slick](http://kenwheeler.github.io/slick/)
 
+#### CDN
+
+CDN hosted slick is a great way to get set up quick:
+
+In your ```<head>``` add:
+
+````
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.css"/>
+````
+
+Then, before your closing ```<body>``` tag add:
+
+```
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.min.js"/></script>
+```
+
 #### Options
 
 
@@ -41,6 +57,7 @@ speed | int | 300 | Transition speed
 swipe | boolean | true | Enables touch swipe
 touchMove | boolean | true | Enables slide moving with touch
 touchThreshold | int | 5 | Swipe distance threshold
+useCSS | boolean | true | Enable/Disable CSS Transitions
 vertical | boolean | false | Vertical slide direction
 
 #### Methods
